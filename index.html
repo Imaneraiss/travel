@@ -10,40 +10,68 @@
 <body>
     <header>
         <div class="logo"><img src="logo.png" alt="logo" width="100" height="100"></div>
-        <nav>
-            <a href="lien">ACCUEIL</a>
-            <a href="lien">BLOG</a>
-            <a href="lien">CV</a>
+        <nav class="nav">
+            <a href="./pages/accueil.html">ACCUEIL</a>
+            <a href="./pages/blog.html">BLOG</a>
+            <a href="./pages/cv.html">CV</a>
             <a href="./pages/contact.html">CONTACT</a>
         </nav>
     </header>
     <div class="banner">
-        <img src="Losangelos.jpg" alt="image de voyage">
-        <div class="caption">Bon retour de LOS ANGELES</div>
-        <a href="lien" class="read_more">Voir l article</a>
+        <img src="banner.avif" alt="image de voyage">
+        <div class="capt_readmore">
+            <p class="caption">Bon retour des vacances</p>
+            <button class="read-more" >Voir l'article</button>
+        </div>
     </div>
     <section class="content">
         <article>
-            <h2><img src="images.png" alt="icon" width="20" height="20">TU VOYAGES, TU GAGNES </h2>
+            <h2><img src="images.png" alt="icon" >TU VOYAGES, TU GAGNES </h2>
+            <p>« Rien ne développe l’intelligence comme les voyages. » – Émile Zola</p>
+            <p>« Voir le monde de ses yeux est mille fois mieux que n’importe quel rêve. » – Ray Bradbury</p>
+            <p>« Investir dans les voyages, c’est investir en soi-même. » – Matthew Karsten</p>
         </article>
     
-    <aside>
-        <img src="auteur.png" alt="Auteur" class="profile" width="30" height="30">
-        <div>
-            <a href=""><img src="face.png" alt="FACEBOOK" width="30" height="30"></a>
-            <a href=""><img src="insta.jpg" alt="INSTAGRAM" width="30" height="30"></a>
-            <a href=""><img src="twiter.png" alt="TWITER" width="30" height="30"></a>
-            <a href=""><img src="link.png" alt="LINKDIN" width="30" height="30"></a>
+    <aside>       
+        <p>A PROPOS DE L'AUTEUR </p>
+        <img src="auteur.png" alt="Auteur" class="profile" >
+        <div class="social">
+        <a href=""><img  src="facebook.svg" alt="FACEBOOK" ></a>
+        <a href=""><img id="insta" src="instagram.svg" alt="INSTAGRAM" ></a>
+        <a href=""><img id="twt" src="twitter.svg" alt="TWITER"></a>
+        <a href=""><img id="lkd" src="linkedin.svg" alt="LINKDIN"></a>
         </div>
+
     </aside>
     </section>
     
 </body>
 
 <footer>
+    <div class="lieux" >
+        <h5>Lieux visités:</h5>
+        <ul>
+            <li>Guelmim</li>
+            <li>Marrakech</li>
+            <li>Tetouan</li>
+        </ul>
+
+    </div>
     <div class="photos">
-        <img src="1.jpg" alt="moi et ma mere">
-        <img src="2.jpg" alt="moi et mon pere">
-        <img src="3.jpg" alt="moi" width="100">
+        <h5>Mes photos:</h5>
+        <div class="pictures">
+            <img src="1.jpg" alt="moi et ma mere">
+            <img src="2.jpg" alt="moi et mon pere">
+            <img src="3.jpg" alt="moi" width="100">
+        </div>
+    </div>
+    
+    <div class="amis">
+        <h5>Mes amis:</h5>
+        <ul>
+            <li>Mahjouba Boutoumit</li>
+            <li>Abdelmalek raiss</li>
+            <li>Latifa elalaoui</li>
+        </ul>
     </div>
 </footer>
